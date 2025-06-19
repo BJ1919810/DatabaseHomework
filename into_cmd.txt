@@ -1,0 +1,5 @@
+docker exec -it opengauss bash
+su - omm
+gsql -d mydb -U dbuser
+Test@123
+\d user_k
